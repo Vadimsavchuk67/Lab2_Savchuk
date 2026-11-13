@@ -11,7 +11,7 @@ int main() {
     if (!(cin >> b)) return 1;
     switch (op) {
         case 1: result = a + b; break;
-        case 2: break;
+        case 2: result = a - b; break;
         case 3: break;
         case 4: break;
         default: cout << "Invalid operation"; return 1;
