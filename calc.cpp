@@ -13,7 +13,7 @@ int main() {
         case 1: break;
         case 2: break;
         case 3: break;
-        case 4: break;
+        case 4: if (b == 0) { cout << "Cannot divide by zero"; return 1; } result = a / b; break;
         default: cout << "Invalid operation"; return 1;
     }
     cout << "Result = " << result << endl;
