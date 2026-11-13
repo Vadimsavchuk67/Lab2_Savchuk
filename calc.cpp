@@ -10,7 +10,7 @@ int main() {
     cout << "Second number: ";
     if (!(cin >> b)) return 1;
     switch (op) {
-        case 1: break;
+        case 1: result = a + b; break;
         case 2: break;
         case 3: break;
         case 4: break;
